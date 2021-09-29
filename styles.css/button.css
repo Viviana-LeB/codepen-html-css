@@ -1,0 +1,38 @@
+.left-sidebar .rainbow .shadow button{
+    height: 60px;
+    width: 140px;
+    color: honeydew;
+    background-color: black;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.left-sidebar > .rainbow {
+    background-image: linear-gradient(45deg,#fb0094,#0000ff, #00ff00, #ffff00, #ff0000, #fb0094,#0000ff, #00ff00, #ffff00, #ff0000);
+    height: 70px;
+    width: 150px;
+    background-size: 200%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.left-sidebar > .rainbow:hover {
+    background-image: linear-gradient(45deg,#fb0094,#0000ff, #00ff00, #ffff00, #ff0000, #fb0094,#0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 200%;
+   height: 70px;
+   width: 150px;
+   animation:  animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {background-position: 0 0;}
+    50%
+    {background-position: 200% 0;}
+    100%
+    {background-position: 0 0;}
+
+}

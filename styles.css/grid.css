@@ -1,0 +1,7 @@
+.lower-column {
+    display: grid;
+}
+
+.lower-column h1 {
+    font-size: 100px;
+}
